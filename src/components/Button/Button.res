@@ -11,6 +11,7 @@ let button = (~block) =>
     cursor(pointer),
     fontFamily(Theme.fontFamily),
     fontSize(2.0->rem),
+    margin(10->px)
   ])
 
 @react.component

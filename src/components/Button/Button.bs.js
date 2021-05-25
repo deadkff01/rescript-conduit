@@ -14,7 +14,8 @@ function button(block) {
               CssJs.borderRadius(Theme.Radius.small),
               CssJs.cursor(CssJs.pointer),
               CssJs.fontFamily(Theme.fontFamily),
-              CssJs.fontSize(CssJs.rem(2.0))
+              CssJs.fontSize(CssJs.rem(2.0)),
+              CssJs.margin(CssJs.px(10))
             ]);
 }
 

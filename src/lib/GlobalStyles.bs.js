@@ -7,7 +7,8 @@ function includeStyle(param) {
         CssJs.padding(CssJs.zero),
         CssJs.margin(CssJs.zero)
       ]);
-  return CssJs.$$global("html", [CssJs.fontSize(CssJs.px(10))]);
+  CssJs.$$global("html", [CssJs.fontSize(CssJs.px(10))]);
+  return CssJs.$$global("body", [CssJs.textAlign(CssJs.center)]);
 }
 
 export {
